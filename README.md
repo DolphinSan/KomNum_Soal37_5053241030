@@ -70,5 +70,5 @@ print(f"{result: .2f}");
     dimana kolom pertama diisi langsung dengan nilai fx. Selanjutnya, fungsi _firstOrde, _SecondOrde, 
     dan_ThirdOrde secara bertahap menghitung nilai perbedaan terbagi orde pertama hingga ketiga 
     dengan menggunakan rumus :
-
-    ![Image 1](images/image-1.png)
+    
+![Gambar 1 - Rumus Newton](image-1.png)
