@@ -77,6 +77,17 @@ print(f"{result: .2f}");
 
 ![Gambar 2](image-2.png)
 
+    Setelah semua orde dihitung, fungsi Calculate menggunakan formula polinomial Newton orde 3 untuk mencari 
+    nilai fungsi pada titik target_x = 11, yaitu:
+
+![Gambar 2](image.png)
+
+    b1, b2, b3 adalah koefisien polinomial yang berasal dari tabel perbedaan terbagi. Hasil akhirnya dibulatkan 
+    ke dua angka di belakang koma dan dicetak sebagai output.
+
+    Dengan data input x = [8, 10, 12, 14] dan f(x) = [660, 1326, 2280, 3570] interpolasi ini memperkirakan nilai 
+    fungsi di x = 11 menggunakan pendekatan polinomial derajat tiga. Pendekatan ini dapat digunakan untuk memprediksi 
+    nilai fungsi pada suatu titik yang belum diberikan data. 
 
 
 
