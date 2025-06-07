@@ -65,10 +65,18 @@ print(f"{result: .2f}");
 
 ### Penjelasan Kode
 #### Interpolasi Newton Orde 3 
-    Pada kode tersebut, Class menerima dua parameter utama x(daftar titik data pada sumbu-x) 
+    Pada kode diatas, Class menerima dua parameter utama x(daftar titik data pada sumbu-x) 
     dan f(x)(daftar titik data pada sumbu-y). Kemudian dibentuk sebuah tabel perbedaan terbagi (divided_diff), 
     dimana kolom pertama diisi langsung dengan nilai fx. Selanjutnya, fungsi _firstOrde, _SecondOrde, 
     dan_ThirdOrde secara bertahap menghitung nilai perbedaan terbagi orde pertama hingga ketiga 
     dengan menggunakan rumus :
     
-![Gambar 1 - Rumus Newton](image-1.png)
+![Gambar 1](image-1.png)
+
+    dan untuk orde lebih tinggi menggunakan :
+
+![Gambar 2](image-2.png)
+
+
+
+
