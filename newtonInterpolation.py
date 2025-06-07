@@ -1,15 +1,3 @@
-## Komputasi Numerik_Soal37_5053241030
-
-
-### Anggota
-    1. Muhammad Khalid Ash Shiddiqi 5053241030
-    2. Muhammad Zulfiqar 5053241006
-    3. Azmii Maulawiy Said 5053241024
-    4. Oktavian Ramadhan 5053241028
-    5. Jovan Oberto Mishael Sinaga 5053241031
-
-### Kode
-```python
 class NewtonInterpolation:
     def __init__(self, x, fx):
         self.x = x
@@ -60,11 +48,3 @@ newtonInterpolation = NewtonInterpolation(x, fx)
 result = newtonInterpolation.Calculate(target);
 
 print(f"{result: .2f}");
-```
-
-
-### Penjelasan Kode
-#### Interpolasi Newton Orde 3 
-    Pada kode tersebut, Class menerima dua parameter utama x(daftar titik data pada sumbu-x) dan f(x)(daftar titik data pada sumbu-y). Kemudian dibentuk sebuah tabel perbedaan terbagi (divided_diff), dimana kolom pertama diisi langsung dengan nilai fx. Selanjutnya, fungsi _firstOrde, _SecondOrde, dan_ThirdOrde secara bertahap menghitung nilai perbedaan terbagi orde pertama hingga ketiga dengan menggunakan rumus :
-    
-    ![Image 1](image-1.png)
